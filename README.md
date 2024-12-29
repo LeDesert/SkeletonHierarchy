@@ -35,7 +35,7 @@ Ce projet, basé sur le sujet de thèse de [Leborgne Aurélie](https://perso.lir
 - `SAE11` Dossier contenant le site internet explicatif.
 
 ## Site Internet
-Un site internet a été développé pour expliquer le projet de manière plus détaillée. Vous pouvez accéder au site en ouvrant le fichier `pageAccueil.html` dans le dossier `WWWV2`.
+Un site internet a été développé pour expliquer le projet de manière plus détaillée. Vous pouvez accéder au site en ouvrant le fichier `pageAccueil.html` dans le dossier `SAE11/WWWV2`.
 
 # English Version
 
@@ -75,4 +75,4 @@ This project, developed by [Leborgne Aurélie](https://perso.liris.cnrs.fr/laure
 - `SAE11`: Folder containing the explanatory website.
 
 ### Website
-A website has been developed to explain the project in more detail. You can access the site by opening the `pageAccueil.html` file in the `WWWV2` folder.
+A website has been developed to explain the project in more detail. You can access the site by opening the `pageAccueil.html` file in the `SAE11/WWWV2` folder.
