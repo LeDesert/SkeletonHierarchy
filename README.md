@@ -11,7 +11,7 @@
 7. [English Version](#english-version)
 
 ## Introduction
-Ce projet, basé sur le sujet de thèse de Leborgne Aurélie, calcule la Distance Euclidienne au Carré (SEDT) et les boules maximales d'une forme. Le programme prend une image BMP en entrée, la transforme en tableau 2D, et effectue divers traitements pour analyser la forme contenue dans l'image.
+Ce projet, basé sur le sujet de thèse de [Leborgne Aurélie](https://perso.liris.cnrs.fr/laure.tougne/theses_doctorants/these_Aurelie_leborgne.pdf), calcule la Distance Euclidienne au Carré (SEDT) et les boules maximales d'une forme. Le programme prend une image BMP en entrée, la transforme en tableau 2D, et effectue divers traitements pour analyser la forme contenue dans l'image.
 
 ## Fonctionnalités
 - Transformation d'une image BMP en tableau 2D.
@@ -51,7 +51,7 @@ Un site internet a été développé pour expliquer le projet de manière plus d
 6. [Website](#website)
 
 ### Introduction
-This project, developed by Aurélie Leborgne, calculates the Squared Euclidean Distance Transform (SEDT) and the maximal balls of a shape. The program takes a BMP image as input, transforms it into a 2D array, and performs various processing to analyze the shape contained in the image.
+This project, developed by [Leborgne Aurélie](https://perso.liris.cnrs.fr/laure.tougne/theses_doctorants/these_Aurelie_leborgne.pdf), calculates the Squared Euclidean Distance Transform (SEDT) and the maximal balls of a shape. The program takes a BMP image as input, transforms it into a 2D array, and performs various processing to analyze the shape contained in the image.
 
 ### Features
 - Transformation of a BMP image into a 2D array.
