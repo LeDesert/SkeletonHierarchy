@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+     <title>ProjetSAE</title>
+          <!-- Permet d'adapter la page en version mobile -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="utf-8">
+     <meta name="description" content="Projet SAE">
+     <link href="css/styleaccueil.css" rel="stylesheet" type="text/css">
+     <script src="Javascript/javascript.js"></script>
+
+</head>
+
+<body>
+          <!-- Section Accueil -->
+     <div class="Accueil" id="section1">
+          <div class="Accueil-texte">
+               <section>
+                    <h2>Accueil</h2>
+                    <article>
+                         <img src="./image/logo.jpg" alt="">
+                         <h3>Courte introduction <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;↪ </h3>
+                         <p>
+                              Ce projet, nommé SAE est un projet basé sur 2 "matières", nommé UV. Une partie WEB (W11)
+                              ainsi qu'une partie programmation (P11). La partie P11 est basé sur la compression d'image
+                              (que nous présenterons sur ce site). Le plan de ce site est simpliste, de façon à pouvoir
+                              expliquer nos démarches ainsi que notre travail afin de finir cette SAE. Ce travail se
+                              déroule en 3 étapes. Le calcul des distances Euclidiennes, puis on établit la carte des
+                              boules max, et pour finir on reconstruit l'image.</p>
+                    </article>
+               </section>
+          </div>
+     </div>
+     <!-- Section Distance Euclidienne -->
+     <div class="CarteDistance" id="section2">
+          <div class="Distance-texte">
+               <section>
+                    <h2>Carte de distance</h2>
+                    <article>
+                         <p class="intro">
+                              <img src="./image/cartedistance.jpg" alt=""><br>
+                              La carte des distances(aussi appelée SEDT) est un tableau composé des distances au carré
+                              de la case de fond la plus proche de la case observé. Ces distances peuvent être trouvé
+                              grace au théorème de pythagore.
+                         </p>
+                         <h3>Quelques infos..</h3>
+
+                         <p class="graphdistance">
+                              <img src="./image/graph1carte.png" alt="">
+                              <img src="./image/graph2carte.png" alt=""><br>
+                              Nous avons réalisé 2 approches de ce programme. Une méthode brute, et une méthode
+                              optimisée. Ici, nous avons deux schémas d’images qui ont des bruits différents (0 pour le
+                              premier, 4 pour le second) et qui montrent le temps pris par chacune des méthodes selon le
+                              nombre de pixels de forme.
+                         </p>
+                    </article>
+               </section>
+          </div>
+     </div>
+     <!-- Section Boule max -->
+     <div class="Boule" id="section3">
+          <div class="Boule-texte">
+               <section>
+                    <h2>Boule max</h2>
+                    <article class="paragraphe1">
+                         <h3>C'est quoi ?</h3>
+                         <p>
+                              Les boules maximales, aussi appelés squelette morphologique en mathématique, est un moyen
+                              de rassembler des zones d’une image. En effet, c’est “boules” sont entierement constitué
+                              de la forme, et touche au moins 2 des bords. Elles permettent de supprimer un grand nombre
+                              de valeurs de la carte des distances euclidiennes. Ainsi, cette carte des boules maximales
+                              contient la position du centre des cercles ainsi que leurs rayons, ce qui permet de ranger
+                              ces valeurs dans un fichier texte, et non sous la forme d’un tableau.
+                         </p>
+                    </article>
+                    <article class="paragraphe2">
+                         <h3>Comparaison</h3>
+                         <img src="./image/boule1.png" alt="">
+                         <img src="./image/boule2.png" alt="">
+                         <p>
+                              Ce programme a été réalisé de deux manières : une manière brute, et une un peu plus
+                              optimisée. Il s’agit la du schéma montrant le temps pris par chacune des deux méthodes, en
+                              fonction du nombres de pixels de forme pour un meme bruit
+                         </p>
+                    </article>
+               </section>
+          </div>
+     </div>
+     <!-- Section Reconstruction -->
+     <div class="Reconstitution" id="section4">
+          <div class="Reconstitution-texte">
+               <h2>Reconstitution</h2>
+               <div id="FlexGlobal">
+                    <div id="Reconstitution-Img">
+                         <article><img src="./image/rec1.png" alt=""> <br>
+                              <h3>Avant</h3>
+                         </article>
+                         <article><img src="./image/rec2.png" alt=""> <br>
+                              <h3>Après</h3>
+                         </article>
+                    </div>
+                    <div id="Reconstitution-Ex">
+                         <article>
+                              <h3>C’est quoi ?</h3>
+                              <p>
+                                   La reconstitution est en quelque sorte la décompression de l’image. En effet, elle
+                                   utilise la carte des boules maximales afin de reconstruire l’image. Nous pouvons donc
+                                   voir que via cette compressions, nous avons pu garder une maximum de fidélité comparé
+                                   à l’image d’origine. </p>
+                         </article>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <!-- Section Exemples -->
+
+     <div class="Exemples" id="section5">
+          <div class="Exemples-texte">
+               <h2>Exemples</h2>
+               <div class="row">
+                    <article class="col">
+                         <h3>Bruit à 1 avant</h3><img src="./image/ex11.png" alt="">
+                    </article>
+                    <article class="col">
+                         <h3>Bruit à 3 avant</h3><img src="./image/ex31.png" alt="">
+                    </article>
+                    <article class="col">
+                         <h3>Bruit à 4 avant</h3><img src="./image/ex41.png" alt="">
+                    </article>
+               </div>
+               <div class="row">
+                    <article class="col"><img src="./image/ex12.png" alt="">
+                         <h3>Après bruit à 1</h3>
+                    </article>
+                    <article class="col"><img src="./image/ex32.png" alt="">
+                         <h3>Après bruit à 3</h3>
+                    </article>
+                    <article class="col"><img src="./image/ex42.png" alt="">
+                         <h3>Après bruit à 4</h3>
+                    </article>
+               </div>
+          </div>
+     </div>
+
+     <!-- Section A propos -->
+     <div class="Propos" id="section6">
+          <div class="Propos-texte">
+               <section>
+                    <h2>A propos</h2>
+                    <article>
+                         <img src="./image/toDo.png" alt="ToDoList"
+                              title="(P)Auguste : All, (W)Antoine : 10/12, (W) Titouan : 2/12 ">
+                         <h3>Nous ainsi que notre organisation ↳</h3>
+                         <p>
+                              Nous sommes trois étudiants en première année à l'IUT Robert Schuman d'Illkirch. Ce projet
+                              nous a permis d'explorer une fraction du vaste domaine que nous avons baptisé "compression
+                              d'image". La gestion de nos activités pendant cette période festive représente un défi
+                              majeur. C'est pourquoi une liste de tâches, visible en pièce jointe, a été élaborée avant
+                              cette période. Cette liste nous aide à nous organiser et à visualiser la répartition des
+                              responsabilités au sein du groupe, permettant ainsi de déterminer qui est en charge de
+                              chaque aspect du projet.
+                         </p>
+
+                    </article>
+               </section>
+          </div>
+     </div>
+
+          <!-- Navig Bar -->
+     <nav class="sticky">
+          <div class="cadre">
+               <div class="topnav">
+                    <a href="#section1">Accueil</a>
+                    <a href="#section2">Carte de distance</a>
+                    <a href="#section3">Boule Max</a>
+                    <a href="#section4">Reconstitution</a>
+                    <a href="#section5">Exemple</a>
+                    <a href="#section6">A propos</a>
+               </div>
+          </div>
+     </nav>
+</body>
+
+</html>
