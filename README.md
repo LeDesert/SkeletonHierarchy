@@ -12,6 +12,10 @@
 
 ## Introduction
 Ce projet, basé sur le sujet de thèse de [Leborgne Aurélie](https://perso.liris.cnrs.fr/laure.tougne/theses_doctorants/these_Aurelie_leborgne.pdf), calcule la Distance Euclidienne au Carré (SEDT) et les boules maximales d'une forme. Le programme prend une image BMP en entrée, la transforme en tableau 2D, et effectue divers traitements pour analyser la forme contenue dans l'image.
+<div align="center">
+    <img src="./Arbre.png" alt="Arbre euclide" width="50%" style="margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./Cheval.png" alt="Cheval euclide" width="50%" style="margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+</div>
 
 ## Fonctionnalités
 - Transformation d'une image BMP en tableau 2D.
@@ -52,6 +56,11 @@ Un site internet a été développé pour expliquer le projet de manière plus d
 
 ### Introduction
 This project, developed by [Leborgne Aurélie](https://perso.liris.cnrs.fr/laure.tougne/theses_doctorants/these_Aurelie_leborgne.pdf), calculates the Squared Euclidean Distance Transform (SEDT) and the maximal balls of a shape. The program takes a BMP image as input, transforms it into a 2D array, and performs various processing to analyze the shape contained in the image.
+
+<div align="center">
+    <img src="./Arbre.png" alt="tree euclide" width="50%" style="margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="./Cheval.png" alt="horse euclide" width="50%" style="margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+</div>
 
 ### Features
 - Transformation of a BMP image into a 2D array.
