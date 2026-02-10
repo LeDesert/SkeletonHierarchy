@@ -80,6 +80,6 @@ This project, based on the PhD thesis of [Aurélie Leborgne](https://perso.liris
 
 ---
 
-### 📬 Contact
+### Contact
 **Développeur** : Antoine Chaumet
 **Remerciements** : Aurélie Leborgne pour les fondements théoriques.
