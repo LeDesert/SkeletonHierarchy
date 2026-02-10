@@ -1,4 +1,4 @@
-# 🧬 Appariement de Formes par Squelettisation Hiérarchique (SAE 1.2)
+# Appariement de Formes par Squelettisation Hiérarchique (SAE 1.2)
 
 Ce projet, basé sur les travaux de recherche de [Leborgne Aurélie](https://perso.liris.cnrs.fr/laure.tougne/theses_doctorants/these_Aurelie_leborgne.pdf), explore les fondements de la géométrie discrète. L'objectif est de réduire une forme complexe à son essence structurelle via le calcul de la **Distance Euclidienne au Carré (SEDT)** et l'extraction des **boules maximales**.
 
@@ -9,7 +9,7 @@ Ce projet, basé sur les travaux de recherche de [Leborgne Aurélie](https://per
 
 ---
 
-## 🧠 Focus Mathématique : L'Optimisation par Séparabilité
+## Focus Mathématique : L'Optimisation par Séparabilité
 
 L'enjeu majeur de ce projet est le passage d'une approche naïve ( $O(N^4)$ ) vers une solution optimisée en temps linéaire ($O(N^2)$ par rapport au nombre total de pixels).
 
@@ -29,7 +29,7 @@ Grâce à la séparabilité de l'opérateur $\min$, nous décomposons le calcul 
 
 ---
 
-## 🏁 Théorie des Boules Maximales
+## Théorie des Boules Maximales
 
 Le squelette est extrait par l'identification des **Boules Maximales**. 
 
@@ -41,7 +41,7 @@ L'ensemble des centres de ces boules définit l'axe médian de la forme. Cette m
 
 ---
 
-## 📊 Benchmark de Performance
+## Benchmark de Performance
 
 L'efficacité de l'optimisation a été mesurée via `System.Diagnostics.Stopwatch`.
 
@@ -53,21 +53,21 @@ L'efficacité de l'optimisation a été mesurée via `System.Diagnostics.Stopwat
 
 ---
 
-## 🛠️ Installation & Utilisation
+## Installation & Utilisation
 
 1.  Clonez le dépôt.
 2.  Ouvrez `SAE12/codeDemarrage/test_image2.sln` dans **Visual Studio**.
 3.  Spécifiez le chemin d'accès à votre image BMP dans `Program.cs`.
 4.  Exécutez (`F5`). Les résultats s'affichent en console et les images traitées sont sauvegardées.
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 - `SAE12`: Contient le code source C# (Algorithmes SEDT et Squelettisation).
 - `SAE11`: Contient le **site internet explicatif** détaillé (Ouvrir `pageAccueil.html` dans `SAE11/WWWV2`).
 
 ---
 
-# 🇬🇧 English Version
+# English Version
 
 # Shape Matching by Hierarchical Skeletonization
 
